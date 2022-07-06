@@ -12,7 +12,8 @@ body {
     min-height: 100%;
     padding-top: 76px;
     font-size: 100%;
-    /* background-color: #15171e; */
+    background: #24262b;
+    color: white;
 }
 
 * {
@@ -20,6 +21,7 @@ body {
     padding: 0;
     box-sizing: border-box; 
 }
+
 
 .col {
     border: 1px solid rebeccapurple;
@@ -36,6 +38,10 @@ ul {
     height: 50px;
 }
 
+.uclani-se  {
+    padding: 0
+}
+
 .navbar-brand {
     font-weight: 700;
 }
@@ -48,7 +54,6 @@ ul {
 
 .navbar-btn {
     background-color: #01d1d1;
-    padding: 10px;
     border-radius: 10px;
     color: #24262b;
     font-weight: 600;
@@ -58,9 +63,9 @@ ul {
     color: white;
 }
 
-/* CAROUSEL */
+/* HOME CAROUSEL */
 
-.carousel-item {
+#myCarousel > .carousel-inner .carousel-item {
     height: 62rem;
     background: #24262b;
     color:white;
@@ -155,6 +160,60 @@ ul {
     font-size: 1.875em;
 }
 
+/* LOGIN FORM */
+
+.a-login-form {
+    text-decoration: none;
+    color: #01d1d1;
+}
+.a-login-form:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-custom{
+    color: #24262b;
+    background-color: #01d1d1;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+
+/* DIGITAL LIBRARY */
+.naslov {
+    font-size: large;
+}
+
+.table-first-row {
+    background-color: #01d1d1 !important;
+    color: #24262b;
+}
+
+tr:nth-child(odd) {
+    background-color: #15181a;
+}
+
+.td-actions {
+    padding: 0px 5px !important;
+}
+
+.list-group {
+    border: white;
+}
+
+.list-group-item {
+    background-color: #24262b;
+    color: white;
+}
+.active-list-item{
+    background-color: #01d1d1 !important;
+    color: #24262b !important;
+}
+
+.list-group-item:hover {
+    background-color: #01d1d1;
+    color: #24262b;
+}
 
 
 
@@ -167,15 +226,32 @@ ul {
 
 
 
+/* REGISTER FORM */
+.card {
+    border-radius: 25px;
+    border: none;
+}
 
+.card-body {
+    background-color: #24262b;
+}
 
+.register-btn {
+    border: none;
+    font-weight: 500;
+    background-color: #01d1d1;
+}
 
+.register-btn:hover {
+    background-color: #01d1d1;
+    color: #24262b;
+}
 
+/* EDIT BOOK FORM */
 
-
-
-
-
+.form-edit-book {
+    width: 50%;
+}
 
 
 
